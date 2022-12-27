@@ -17,10 +17,8 @@ namespace BookStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-<<<<<<< Updated upstream
-=======
             // this is branch of 101 development changes
->>>>>>> Stashed changes
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
