@@ -13,7 +13,11 @@ namespace BookStore
     {
         public static void Main(string[] args)
         {
+
+            //creating host for application
             CreateHostBuilder(args).Build().Run();
+
+
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
